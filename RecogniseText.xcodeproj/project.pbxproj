@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B9E34DB12380E7A682C8607 /* Pods_RecogniseText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F032EA9BE522942ABDC902 /* Pods_RecogniseText.framework */; };
+		2C06E3932090E24300099A01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C06E3922090E24300099A01 /* AppDelegate.swift */; };
+		2C06E3952090E24300099A01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C06E3942090E24300099A01 /* ViewController.swift */; };
+		2C06E3982090E24300099A01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C06E3962090E24300099A01 /* Main.storyboard */; };
+		2C06E39A2090E24600099A01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C06E3992090E24600099A01 /* Assets.xcassets */; };
+		2C06E39D2090E24600099A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C06E39B2090E24600099A01 /* LaunchScreen.storyboard */; };
+		2C06E3AB2090FFB000099A01 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 2C06E3AA2090FFB000099A01 /* tessdata */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C06E38F2090E24300099A01 /* RecogniseText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecogniseText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C06E3922090E24300099A01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C06E3942090E24300099A01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C06E3972090E24300099A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C06E3992090E24600099A01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C06E39C2090E24600099A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C06E39E2090E24600099A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C06E3AA2090FFB000099A01 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		51F032EA9BE522942ABDC902 /* Pods_RecogniseText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecogniseText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5390B7AD843CEDBA7765387D /* Pods-RecogniseText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecogniseText.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecogniseText/Pods-RecogniseText.debug.xcconfig"; sourceTree = "<group>"; };
+		C734F2E271614279815B3CD6 /* Pods-RecogniseText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecogniseText.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecogniseText/Pods-RecogniseText.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C06E38C2090E24300099A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9E34DB12380E7A682C8607 /* Pods_RecogniseText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CE2D25C0B16FF63CC6E6B6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51F032EA9BE522942ABDC902 /* Pods_RecogniseText.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C06E3862090E24300099A01 = {
+			isa = PBXGroup;
+			children = (
+				2C06E3912090E24300099A01 /* RecogniseText */,
+				2C06E3902090E24300099A01 /* Products */,
+				A8956C7AB421F58C41B88D64 /* Pods */,
+				0CE2D25C0B16FF63CC6E6B6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C06E3902090E24300099A01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C06E38F2090E24300099A01 /* RecogniseText.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C06E3912090E24300099A01 /* RecogniseText */ = {
+			isa = PBXGroup;
+			children = (
+				2C06E3922090E24300099A01 /* AppDelegate.swift */,
+				2C06E3942090E24300099A01 /* ViewController.swift */,
+				2C06E3962090E24300099A01 /* Main.storyboard */,
+				2C06E3AA2090FFB000099A01 /* tessdata */,
+				2C06E3992090E24600099A01 /* Assets.xcassets */,
+				2C06E39B2090E24600099A01 /* LaunchScreen.storyboard */,
+				2C06E39E2090E24600099A01 /* Info.plist */,
+			);
+			path = RecogniseText;
+			sourceTree = "<group>";
+		};
+		A8956C7AB421F58C41B88D64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5390B7AD843CEDBA7765387D /* Pods-RecogniseText.debug.xcconfig */,
+				C734F2E271614279815B3CD6 /* Pods-RecogniseText.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C06E38E2090E24300099A01 /* RecogniseText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C06E3A12090E24600099A01 /* Build configuration list for PBXNativeTarget "RecogniseText" */;
+			buildPhases = (
+				B3ED90AD3195E1583DFAD17D /* [CP] Check Pods Manifest.lock */,
+				2C06E38B2090E24300099A01 /* Sources */,
+				2C06E38C2090E24300099A01 /* Frameworks */,
+				2C06E38D2090E24300099A01 /* Resources */,
+				59EB76B1C2ECFEA66B32F9C2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecogniseText;
+			productName = RecogniseText;
+			productReference = 2C06E38F2090E24300099A01 /* RecogniseText.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C06E3872090E24300099A01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Push_Parn;
+				TargetAttributes = {
+					2C06E38E2090E24300099A01 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 2C06E38A2090E24300099A01 /* Build configuration list for PBXProject "RecogniseText" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C06E3862090E24300099A01;
+			productRefGroup = 2C06E3902090E24300099A01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C06E38E2090E24300099A01 /* RecogniseText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C06E38D2090E24300099A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C06E39D2090E24600099A01 /* LaunchScreen.storyboard in Resources */,
+				2C06E3AB2090FFB000099A01 /* tessdata in Resources */,
+				2C06E39A2090E24600099A01 /* Assets.xcassets in Resources */,
+				2C06E3982090E24300099A01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59EB76B1C2ECFEA66B32F9C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RecogniseText/Pods-RecogniseText-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecogniseText/Pods-RecogniseText-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3ED90AD3195E1583DFAD17D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecogniseText-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C06E38B2090E24300099A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C06E3952090E24300099A01 /* ViewController.swift in Sources */,
+				2C06E3932090E24300099A01 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C06E3962090E24300099A01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C06E3972090E24300099A01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C06E39B2090E24600099A01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C06E39C2090E24600099A01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C06E39F2090E24600099A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C06E3A02090E24600099A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C06E3A22090E24600099A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5390B7AD843CEDBA7765387D /* Pods-RecogniseText.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RecogniseText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pushp.RecogniseText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C06E3A32090E24600099A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C734F2E271614279815B3CD6 /* Pods-RecogniseText.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RecogniseText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pushp.RecogniseText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C06E38A2090E24300099A01 /* Build configuration list for PBXProject "RecogniseText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C06E39F2090E24600099A01 /* Debug */,
+				2C06E3A02090E24600099A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C06E3A12090E24600099A01 /* Build configuration list for PBXNativeTarget "RecogniseText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C06E3A22090E24600099A01 /* Debug */,
+				2C06E3A32090E24600099A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C06E3872090E24300099A01 /* Project object */;
+}
